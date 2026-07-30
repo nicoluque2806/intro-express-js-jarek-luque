@@ -16,5 +16,13 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "expresss": "^0.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoluque2806/intro-express-js-jarek-luque.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicoluque2806/intro-express-js-jarek-luque/issues"
+  },
+  "homepage": "https://github.com/nicoluque2806/intro-express-js-jarek-luque#readme"
 }
