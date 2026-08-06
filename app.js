@@ -1,6 +1,7 @@
 import express from 'express';
 import {ConfigDotenv} from "dotenv" 
 import BodyParser from "body-parser";
+import cors from "cors"
 
 const app = express();
 const port = process.env.port || 3000;
@@ -28,3 +29,7 @@ app.get("/productos/nombre", (req,res)=>{
 app.listen(port, () => {
     console.log(`Servidor en funcionamiento en el puerto: ${port}`);
 });
+
+app.get("/articulos", (req, res) => {
+    res.json({"nombre": "escritorio"})
+})
